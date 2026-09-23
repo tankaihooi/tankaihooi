@@ -1,0 +1,136 @@
+<svg width="1100" height="290" viewBox="0 0 1100 290" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated agent system map</title>
+  <desc id="desc">A dark teal animated pipeline: plan, retrieve, act, critic, human review and ship, with a loop from the critic back to retrieval when evidence is thin.</desc>
+  <style>
+    .label { font: 700 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #F0FDFA; letter-spacing: .06em; }
+    .sub { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #99F6E4; letter-spacing: .03em; }
+    .micro { font: 700 10px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #2DD4BF; letter-spacing: .12em; }
+    .node-title { font: 800 14px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #FFFFFF; letter-spacing: .08em; }
+    .idx { font: 700 10px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #5EEAD4; letter-spacing: .14em; opacity: .8; }
+    .node { fill: #0F1B2D; stroke: #0D9488; stroke-width: 1.2; filter: url(#softGlow); }
+    .gate { stroke: #2DD4BF; stroke-width: 1.6; stroke-dasharray: 5 4; }
+    .line-base { stroke: #134E4A; stroke-width: 2; opacity: .7; }
+    .line-flow { stroke: url(#flowGradient); stroke-width: 3; stroke-linecap: round; stroke-dasharray: 90 380; animation: dash 3.6s linear infinite; filter: url(#lineGlow); }
+    .loop-base { stroke: #134E4A; stroke-width: 1.6; stroke-dasharray: 3 5; }
+    .loop-flow { stroke: #38BDF8; stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 50 250; animation: loop 3.2s linear infinite; filter: url(#lineGlow); }
+    .chev { stroke: #2DD4BF; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: .75; }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.8s ease-in-out infinite; }
+    .d1 { animation-delay: .35s; }
+    .d2 { animation-delay: .7s; }
+    .d3 { animation-delay: 1.05s; }
+    .d4 { animation-delay: 1.4s; }
+    .d5 { animation-delay: 1.75s; }
+    .scan { animation: scan 5.8s ease-in-out infinite; }
+    .cursor { animation: blink 1.1s steps(1) infinite; }
+    .live { transform-box: fill-box; transform-origin: center; animation: live 1.8s ease-in-out infinite; }
+    @keyframes dash { to { stroke-dashoffset: -470; } }
+    @keyframes loop { to { stroke-dashoffset: -300; } }
+    @keyframes pulse {
+      0%, 100% { opacity: .84; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.03); }
+    }
+    @keyframes scan {
+      0%, 100% { transform: translateX(-210px); opacity: 0; }
+      15%, 75% { opacity: .9; }
+      50% { transform: translateX(930px); opacity: .5; }
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes live {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: .35; transform: scale(.7); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .line-flow, .loop-flow, .pulse, .scan, .cursor, .live { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="290" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset=".48" stop-color="#0B1F26"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="flowGradient" x1="100" y1="164" x2="1000" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".35" stop-color="#14B8A6"/>
+      <stop offset=".7" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#99F6E4"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#0D9488" flood-opacity=".3"/>
+    </filter>
+    <filter id="lineGlow" filterUnits="userSpaceOnUse" x="0" y="0" width="1100" height="290">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#14B8A6" flood-opacity=".85"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#134E4A" stroke-width=".7" opacity=".3"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L9 5 L1 9" fill="none" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="290" rx="18" fill="url(#bg)"/>
+  <rect width="1100" height="290" rx="18" fill="url(#grid)" opacity=".6"/>
+  <rect x="32" y="28" width="1036" height="234" rx="14" fill="#0B1220" opacity=".5" stroke="#134E4A"/>
+  <g opacity=".14"><rect class="scan" x="0" y="29" width="210" height="232" fill="url(#flowGradient)"/></g>
+
+  <text x="56" y="60" class="micro">LIVE SYSTEM MAP</text>
+  <circle class="live" cx="864" cy="56.5" r="4" fill="#2DD4BF"/>
+  <text x="1044" y="60" class="micro" text-anchor="end">6 STAGES · 1 HUMAN GATE</text>
+  <text x="56" y="88" class="label">Agents that check their own work before anything ships<tspan class="cursor">_</tspan></text>
+  <text x="56" y="110" class="sub">multi-agent research · invoice auditing · support refunds that wait for a human</text>
+
+  <path class="line-base" d="M125 164 H975"/>
+  <path class="line-flow" d="M125 164 H975"/>
+
+  <path class="loop-base" d="M635 201 C612 240 318 240 295 201" marker-end="url(#arrow)"/>
+  <path class="loop-flow" d="M635 201 C612 240 318 240 295 201"/>
+  <text x="465" y="253" class="micro" text-anchor="middle" fill="#38BDF8" style="fill:#38BDF8">RE-SEARCH WHEN EVIDENCE IS THIN</text>
+
+  <g class="chev">
+    <path d="M207 158 L213 164 L207 170"/>
+    <path d="M377 158 L383 164 L377 170"/>
+    <path d="M547 158 L553 164 L547 170"/>
+    <path d="M717 158 L723 164 L717 170"/>
+    <path d="M887 158 L893 164 L887 170"/>
+  </g>
+
+  <g class="pulse">
+    <rect class="node" x="57" y="128" width="136" height="72" rx="12"/>
+    <text x="125" y="147" class="idx" text-anchor="middle">01</text>
+    <text x="125" y="168" class="node-title" text-anchor="middle">PLAN</text>
+    <text x="125" y="187" class="sub" text-anchor="middle">scope the question</text>
+  </g>
+  <g class="pulse d1">
+    <rect class="node" x="227" y="128" width="136" height="72" rx="12"/>
+    <text x="295" y="147" class="idx" text-anchor="middle">02</text>
+    <text x="295" y="168" class="node-title" text-anchor="middle">RETRIEVE</text>
+    <text x="295" y="187" class="sub" text-anchor="middle">RAG · SQL · web</text>
+  </g>
+  <g class="pulse d2">
+    <rect class="node" x="397" y="128" width="136" height="72" rx="12"/>
+    <text x="465" y="147" class="idx" text-anchor="middle">03</text>
+    <text x="465" y="168" class="node-title" text-anchor="middle">ACT</text>
+    <text x="465" y="187" class="sub" text-anchor="middle">tools &amp; APIs</text>
+  </g>
+  <g class="pulse d3">
+    <rect class="node" x="567" y="128" width="136" height="72" rx="12"/>
+    <text x="635" y="147" class="idx" text-anchor="middle">04</text>
+    <text x="635" y="168" class="node-title" text-anchor="middle">CRITIC</text>
+    <text x="635" y="187" class="sub" text-anchor="middle">check evidence</text>
+  </g>
+  <g class="pulse d4">
+    <rect class="node gate" x="737" y="128" width="136" height="72" rx="12"/>
+    <rect x="847" y="139" width="3" height="10" rx="1" fill="#2DD4BF"/>
+    <rect x="853" y="139" width="3" height="10" rx="1" fill="#2DD4BF"/>
+    <text x="805" y="147" class="idx" text-anchor="middle">05</text>
+    <text x="805" y="168" class="node-title" text-anchor="middle">HUMAN</text>
+    <text x="805" y="187" class="sub" text-anchor="middle">approve or edit</text>
+  </g>
+  <g class="pulse d5">
+    <rect class="node" x="907" y="128" width="136" height="72" rx="12"/>
+    <text x="975" y="147" class="idx" text-anchor="middle">06</text>
+    <text x="975" y="168" class="node-title" text-anchor="middle">SHIP</text>
+    <text x="975" y="187" class="sub" text-anchor="middle">cited &amp; audited</text>
+  </g>
+</svg>

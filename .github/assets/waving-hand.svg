@@ -1,0 +1,41 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Waving hand</title>
+  <style>
+    .hand { transform-box: view-box; transform-origin: 30px 58px; animation: wave 2.6s ease-in-out infinite; }
+    .arc { stroke: #2DD4BF; stroke-width: 2.6; stroke-linecap: round; animation: arc 2.6s ease-in-out infinite; }
+    .arc2 { animation-delay: .12s; }
+    @keyframes wave {
+      0%, 60%, 100% { transform: rotate(0deg); }
+      10% { transform: rotate(16deg); }
+      20% { transform: rotate(-8deg); }
+      30% { transform: rotate(16deg); }
+      40% { transform: rotate(-4deg); }
+      50% { transform: rotate(10deg); }
+    }
+    @keyframes arc {
+      0%, 55%, 100% { opacity: 0; }
+      10%, 45% { opacity: 1; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hand, .arc { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="skin" x1="14" y1="6" x2="48" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDE68A"/>
+      <stop offset=".55" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <path class="arc" d="M49 9 C54 12 57 17 57 23"/>
+  <path class="arc arc2" d="M52 3 C59 7 63 14 63 22"/>
+  <g class="hand" fill="url(#skin)">
+    <rect x="15" y="14" width="8" height="26" rx="4"/>
+    <rect x="23" y="9" width="8" height="30" rx="4"/>
+    <rect x="31" y="11" width="8" height="28" rx="4"/>
+    <rect x="39" y="17" width="7" height="22" rx="3.5"/>
+    <rect x="4" y="33" width="8" height="20" rx="4" transform="rotate(-42 8 43)"/>
+    <path d="M15 32 H46 V44 C46 53 39 60 30.5 60 C22 60 15 53 15 44 Z"/>
+    <path d="M23 15 V30 M31 15 V30 M39 21 V30" stroke="#D97706" stroke-width="1.1" stroke-linecap="round" opacity=".45"/>
+  </g>
+</svg>
