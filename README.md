@@ -334,12 +334,12 @@ It's where I learned to ship as part of a team: typed APIs, shared schemas, CI a
 
 <div align="center">
 
-<img height="180" src="https://raw.githubusercontent.com/tankaihooi/tankaihooi/output/stats.svg" alt="GitHub Stats" />
-<img height="180" src="https://streak-stats.demolab.com?user=tankaihooi&hide_border=true&background=0B1220&ring=14B8A6&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=99F6E4&currStreakNum=F0FDFA&sideNums=F0FDFA&dates=5EEAD4&stroke=134E4A" alt="GitHub Streak" />
+<img width="48%" src="https://raw.githubusercontent.com/tankaihooi/tankaihooi/output/stats.svg" alt="GitHub Stats" />
+<img width="48%" src="https://streak-stats.demolab.com?user=tankaihooi&hide_border=true&background=0B1220&ring=14B8A6&fire=2DD4BF&currStreakLabel=2DD4BF&sideLabels=99F6E4&currStreakNum=F0FDFA&sideNums=F0FDFA&dates=5EEAD4&stroke=134E4A" alt="GitHub Streak" />
 
 <br/>
 
-<img width="52%" src="https://raw.githubusercontent.com/tankaihooi/tankaihooi/output/top-langs.svg" alt="Top Languages" />
+<img width="42%" src="https://raw.githubusercontent.com/tankaihooi/tankaihooi/output/top-langs.svg" alt="Top Languages" />
 
 </div>
 
