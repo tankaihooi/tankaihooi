@@ -1,6 +1,6 @@
 <svg width="1100" height="210" viewBox="0 0 1100 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Animated experience timeline</title>
-  <desc id="desc">A dark teal animated timeline: AI intern at RExharge in 2025, AI and automation trainee at KVC Industrial Supplies (Sonepar Malaysia) in 2026, then founder of Kaivera from 2026 to the present.</desc>
+  <desc id="desc">A dark teal animated timeline: AI intern at RExharge in 2025, AI and automation trainee at KVC Industrial Supplies (Sonepar Malaysia) in 2026, then founder of Kaivera from July 2026 to the present.</desc>
   <style>
     .title { font: 800 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #F0FDFA; letter-spacing: .08em; }
     .subtitle { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #99F6E4; }
@@ -65,7 +65,7 @@
 
   <text x="190" y="94" class="date" text-anchor="middle">MAY 2025 – JUL 2025</text>
   <text x="550" y="94" class="date" text-anchor="middle">MAY 2026 – JUL 2026</text>
-  <text x="910" y="94" class="date" text-anchor="middle">2026 – PRESENT</text>
+  <text x="910" y="94" class="date" text-anchor="middle">JUL 2026 – PRESENT</text>
 
   <circle class="dot" cx="190" cy="108" r="7"/>
   <circle class="dot d2" cx="550" cy="108" r="7"/>

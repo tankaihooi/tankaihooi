@@ -146,7 +146,7 @@ On the engineering side, I build **multi-agent systems on LangGraph that check t
 
 ### Founder - [Kaivera](https://kaivera.io)
 
-**2026 - Present · Kuala Lumpur**
+**Jul 2026 - Present · Kuala Lumpur**
 
 Kaivera is an AI operations partner for businesses in Southeast Asia. We find where AI actually pays off in a company's operations, build it inside the stack the client already runs, and stay on to keep it running.
 
@@ -421,10 +421,6 @@ Always happy to talk applied AI and automation. Drop me a message.
 ---
 
 <div align="center">
-
-💡 **_"Picking the right process to automate matters more than how you automate it."_**
-
-<sub>Real businesses, not benchmarks.</sub>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,45:134E4A,75:0D9488,100:2DD4BF&height=140&section=footer&text=Find%20it%20%C2%B7%20Build%20it%20%C2%B7%20Run%20it&fontSize=24&fontColor=ffffff&fontAlignY=70&animation=fadeIn" alt="Find it · Build it · Run it" />
 
