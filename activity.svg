@@ -1,0 +1,43 @@
+<svg width="1100" height="320" viewBox="0 0 1100 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution activity for tankaihooi</title>
+  <desc id="desc">47 contributions over the last 31 days and 82 over the past year.</desc>
+  <style>
+    .title { font: 800 18px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #F0FDFA; letter-spacing: .08em; }
+    .sub { font: 600 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #99F6E4; }
+    .axis { font: 600 10px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #5EEAD4; opacity: .75; letter-spacing: .04em; }
+    .statLabel { font: 700 9px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #5EEAD4; letter-spacing: .14em; }
+    .statValue { font: 800 16px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; fill: #FFFFFF; }
+    .grid { stroke: #134E4A; stroke-width: 1; opacity: .7; }
+    .line { stroke: url(#lineGrad); stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; filter: url(#glow); }
+    .pt { fill: #0B1220; stroke: #2DD4BF; stroke-width: 2; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1100" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset=".5" stop-color="#0B1F26"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="72" y1="0" x2="1052" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".5" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#99F6E4"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0" y1="104" x2="0" y2="262" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" filterUnits="userSpaceOnUse" x="0" y="0" width="1100" height="320">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#14B8A6" flood-opacity=".7"/>
+    </filter>
+  </defs>
+  <rect width="1100" height="320" rx="18" fill="url(#bg)"/>
+  <text x="48" y="46" class="title">CONTRIBUTION ACTIVITY</text>
+  <text x="48" y="68" class="sub">Last 31 days · updated 26 Sep 2026</text>
+  <text x="1052" y="46" class="statLabel" text-anchor="end">PAST YEAR</text><text x="1052" y="72" class="statValue" text-anchor="end">82</text><text x="862" y="46" class="statLabel" text-anchor="end">BEST DAY</text><text x="862" y="72" class="statValue" text-anchor="end">23 · Sep 23</text><text x="672" y="46" class="statLabel" text-anchor="end">ACTIVE DAYS</text><text x="672" y="72" class="statValue" text-anchor="end">11/31</text><text x="482" y="46" class="statLabel" text-anchor="end">LAST 31 DAYS</text><text x="482" y="72" class="statValue" text-anchor="end">47</text>
+  <path class="grid" d="M72 262.0 H1052"/><path class="grid" d="M72 222.5 H1052"/><path class="grid" d="M72 183.0 H1052"/><path class="grid" d="M72 143.5 H1052"/><path class="grid" d="M72 104.0 H1052"/>
+  <text x="58" y="266.0" class="axis" text-anchor="end">0</text><text x="58" y="226.5" class="axis" text-anchor="end">10</text><text x="58" y="187.0" class="axis" text-anchor="end">20</text><text x="58" y="147.5" class="axis" text-anchor="end">30</text><text x="58" y="108.0" class="axis" text-anchor="end">40</text>
+  <path d="M72.0 262.0 L104.7 262.0 L137.3 262.0 L170.0 262.0 L202.7 262.0 L235.3 262.0 L268.0 262.0 L300.7 258.1 L333.3 262.0 L366.0 262.0 L398.7 262.0 L431.3 262.0 L464.0 262.0 L496.7 262.0 L529.3 262.0 L562.0 262.0 L594.7 262.0 L627.3 238.3 L660.0 258.1 L692.7 246.2 L725.3 258.1 L758.0 258.1 L790.7 262.0 L823.3 246.2 L856.0 254.1 L888.7 262.0 L921.3 262.0 L954.0 171.2 L986.7 258.1 L1019.3 250.2 L1052.0 262.0 L1052.0 262 L72.0 262 Z" fill="url(#areaGrad)"/>
+  <path class="line" d="M72.0 262.0 L104.7 262.0 L137.3 262.0 L170.0 262.0 L202.7 262.0 L235.3 262.0 L268.0 262.0 L300.7 258.1 L333.3 262.0 L366.0 262.0 L398.7 262.0 L431.3 262.0 L464.0 262.0 L496.7 262.0 L529.3 262.0 L562.0 262.0 L594.7 262.0 L627.3 238.3 L660.0 258.1 L692.7 246.2 L725.3 258.1 L758.0 258.1 L790.7 262.0 L823.3 246.2 L856.0 254.1 L888.7 262.0 L921.3 262.0 L954.0 171.2 L986.7 258.1 L1019.3 250.2 L1052.0 262.0"/>
+  <circle class="pt" cx="72.0" cy="262.0" r="2.5"/><circle class="pt" cx="104.7" cy="262.0" r="2.5"/><circle class="pt" cx="137.3" cy="262.0" r="2.5"/><circle class="pt" cx="170.0" cy="262.0" r="2.5"/><circle class="pt" cx="202.7" cy="262.0" r="2.5"/><circle class="pt" cx="235.3" cy="262.0" r="2.5"/><circle class="pt" cx="268.0" cy="262.0" r="2.5"/><circle class="pt" cx="300.7" cy="258.1" r="4.5"/><circle class="pt" cx="333.3" cy="262.0" r="2.5"/><circle class="pt" cx="366.0" cy="262.0" r="2.5"/><circle class="pt" cx="398.7" cy="262.0" r="2.5"/><circle class="pt" cx="431.3" cy="262.0" r="2.5"/><circle class="pt" cx="464.0" cy="262.0" r="2.5"/><circle class="pt" cx="496.7" cy="262.0" r="2.5"/><circle class="pt" cx="529.3" cy="262.0" r="2.5"/><circle class="pt" cx="562.0" cy="262.0" r="2.5"/><circle class="pt" cx="594.7" cy="262.0" r="2.5"/><circle class="pt" cx="627.3" cy="238.3" r="4.5"/><circle class="pt" cx="660.0" cy="258.1" r="4.5"/><circle class="pt" cx="692.7" cy="246.2" r="4.5"/><circle class="pt" cx="725.3" cy="258.1" r="4.5"/><circle class="pt" cx="758.0" cy="258.1" r="4.5"/><circle class="pt" cx="790.7" cy="262.0" r="2.5"/><circle class="pt" cx="823.3" cy="246.2" r="4.5"/><circle class="pt" cx="856.0" cy="254.1" r="4.5"/><circle class="pt" cx="888.7" cy="262.0" r="2.5"/><circle class="pt" cx="921.3" cy="262.0" r="2.5"/><circle class="pt" cx="954.0" cy="171.2" r="4.5"/><circle class="pt" cx="986.7" cy="258.1" r="4.5"/><circle class="pt" cx="1019.3" cy="250.2" r="4.5"/><circle class="pt" cx="1052.0" cy="262.0" r="2.5"/>
+  <text x="72.0" y="288" class="axis" text-anchor="middle">AUG 27</text><text x="235.3" y="288" class="axis" text-anchor="middle">SEP 01</text><text x="398.7" y="288" class="axis" text-anchor="middle">SEP 06</text><text x="562.0" y="288" class="axis" text-anchor="middle">SEP 11</text><text x="725.3" y="288" class="axis" text-anchor="middle">SEP 16</text><text x="888.7" y="288" class="axis" text-anchor="middle">SEP 21</text><text x="1052.0" y="288" class="axis" text-anchor="middle">SEP 26</text>
+</svg>
